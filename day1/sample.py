@@ -1,12 +1,4 @@
 #First program in python
-
-value_1=33
-print(id(value_1))
-value_1=43
-print(id(value_1))
-
-print(value_1)
-
 print("hi naveen")
 
 print('hey"good morning"')

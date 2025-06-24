@@ -73,9 +73,6 @@ print(id(value_1))
 
 print(value_1)
 
-
-
-
 char_a='A'#ascii values
 ascii_a=ord(char_a)
 print(ascii_a)
