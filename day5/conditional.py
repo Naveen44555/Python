@@ -1,7 +1,7 @@
 # #statements-----> 1. normal statemnt
 #  #                2. control statement
 #  #control statements---->1.conditional and Looping
- 
+
 # '''conditional statement are used for decision making purpose.
 # 1.simple if 
 # 2.if-else
