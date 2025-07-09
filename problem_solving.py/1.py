@@ -36,3 +36,11 @@
 
 # count=0
 # for i in range
+
+
+# if today is sunday then what day after 365 days ? 
+# days=['m','t','w','th','f','sat','s']
+
+# today_index=6
+# future_index=(today_index + 365) % 7
+# print(days[future_index])

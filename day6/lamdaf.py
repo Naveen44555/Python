@@ -1,62 +1,65 @@
-# op= lambda :5
-# print(op())
+# teenary operator
 
-# op=lambda : "naveen"
-# print(op())
+print("even" if int(input("enter number:")) % 2==0 else "odd")
 
-# op=lambda x:x+2
-# print(op(5))
+# lambda function
+op= lambda :5
+print(op())
 
-# op=lambda X:
+op=lambda : "naveen"
+print(op())
 
-#print("even") if True else Print("odd")  #terinary operator
+op=lambda x:x+2
+print(op(5))
 
-# op=lambda x: "even" if x%2==0 else "odd"
-# print(op(4)) 
+print("even") if True else Print("odd")  #terinary operator
 
-# op=lambda :"nnn"
-# print(op())
+op=lambda x: "even" if x%2==0 else "odd"
+print(op(4)) 
 
-# op=lambda:2
-# print(op())
+op=lambda :"nnn"
+print(op())
 
-# print("even")if True else ("odd")
+op=lambda:2
+print(op())
 
-# op=lambda x: "even" if x%2==0 else "odd"
-# print(op(5))
+print("even")if True else ("odd")
 
-# op=lambda x:"even" if x%2==0 else "odd"
+op=lambda x: "even" if x%2==0 else "odd"
+print(op(5))
 
-# nn=lambda :"naveen"
-# print(nn())
+op=lambda x:"even" if x%2==0 else "odd"
 
-# pp=lambda :7
-# print(pp())
+nn=lambda :"naveen"
+print(nn())
 
-# tt=lambda x:x+7
-# print(tt(4))
+pp=lambda :7
+print(pp())
 
-# print("even") if True else print("odd") #terinary operator
+tt=lambda x:x+7
+print(tt(4))
 
-# op=lambda x:print("even") if x%2==0 else ("odd")
-# print(op(7))
+print("even") if True else print("odd") #terinary operator
 
-# po=lambda v:"even" if v%2==0 else ("odd")
-# print(po(9))
+op=lambda x:print("even") if x%2==0 else ("odd")
+print(op(7))
 
-# po=lambda v:"accepted" if True else ("decline")
+po=lambda v:"even" if v%2==0 else ("odd")
+print(po(9))
+
+po=lambda v:"accepted" if True else ("decline")
 # print(po())
 
-# pp=lambda x:x+5
-# print(pp(5))
+pp=lambda x:x+5
+print(pp(5))
 
 
-# x=10
-# def show():
-#   x=5
-#   print(x)
-# show()    
-# print(x)  #output is 5 and 10
+x=10
+def show():
+  x=5
+  print(x)
+show()    
+print(x)  #output is 5 and 10
 
 def outer():   #o/p is 10
     x=10
