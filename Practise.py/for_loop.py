@@ -31,6 +31,26 @@
 #         continue
 #     print(i)    #end=" "
 
+# print even numbers from 1 to 10
+# for i in range(1,21):
+#     if i%2==0:
+#      print(i)
+#     else:
+#         print(i,"odd")
+
+# a=(1,20)
+# for i in a:
+#     if i%2==0:
+#         print(i,"even")
+#     else:
+#         print(i,"odd")
+
+# for i in range(2,11,2):
+#     print(i,"even number")
+
+# for i in range(1,11,2):
+#     print(i)
+        
 '''Loop Starts: The for loop goes through each item in the list one by one.
 First: x = "kphb"
 Then: x = "srnagar"
@@ -63,9 +83,88 @@ Since x is "ameerpet" at the time of break, it prints:'''
 #        break
 #    print(x)
 
-# while loop
+# # while loop
+# list=("banana","apple","cherry")
+# x=0
+# while (x<len(list)):
+#     print(list[x])
+#     x+=1
 
-        
+# y=1
+# while(y<=10):
+#     print(y)
+#     y+=1
+
+# flashsale=True
+# while(flashsale):
+#     print("ddd")
+
+## print even numbers from 1 to 10 in while
+num=2   # even numbers
+while num<=20:
+    if num%2==0:
+        print(num)
+    num+=1
+
+num=1
+while (num<=30):
+    if num%2!=0:
+        print(num)
+    num+=1
+
+naveen=1
+while(naveen<=30):
+    if naveen%2!=0:
+        print(naveen)
+    naveen+=1
+
+naveen=2
+while(naveen<=30):
+    if naveen%2==0:
+        print(naveen)
+    naveen+=1
+print(naveen)
+
+num=2  
+while num%2==0 and num<=20:
+    print(num)
+    num+=1
+
+num=1
+while (num<=20):
+    print(num)
+    num+=1
+
+num=1
+while num<=20:
+    if num%2==0:
+        print(num)
+    num+=1
+
+naveen=1
+while(naveen<=30):
+    if naveen%2!=0:
+        print(naveen)
+    naveen+=1
+
+naveen=2
+while(naveen<=30):
+    if naveen%2==0:
+        print(naveen)
+    naveen+=1
+print(naveen)
+    
+    
+    
+    
+    
+    
+
+
+
+     
+ 
+    
 # # reverse print
 # x="ollom"
 # op=""
